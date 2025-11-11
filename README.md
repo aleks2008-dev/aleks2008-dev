@@ -1,15 +1,15 @@
-# 👋 Привет! Я Алекс - Python Backend Developer
+# 👋 Hi! I'm Alex - Python Backend Developer
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green?style=flat-square&logo=fastapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?style=flat-square&logo=postgresql)
 ![Docker](https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker)
 
-## 🚀 О себе
+## 🚀 About Me
 
-Разрабатываю backend приложения на Python с фокусом на **Clean Architecture** и современные технологии. Специализируюсь на создании API, интеграции с базами данных и разработке Telegram ботов.
+I develop backend applications in Python with a focus on **Clean Architecture** and modern technologies. I specialize in API development, database integration, and Telegram bot development.
 
-## 🛠️ Технический стек
+## 🛠️ Tech Stack
 
 **Backend & API:**
 - Python 3.12, FastAPI, SQLAlchemy
@@ -20,77 +20,77 @@
 **DevOps & Tools:**
 - Docker, Docker Compose
 - Git, GitHub Actions
-- pytest для тестирования
+- pytest for testing
 
 **Telegram Development:**
 - aiogram 3.x
 - FSM (Finite State Machine)
-- API интеграция
+- API integration
 
-## 📊 Ключевые проекты
+## 📊 Key Projects
 
 ### 🏥 [Medical Management System](https://github.com/aleks2008-dev/medical-app-fastapi)
-**Enterprise-level медицинская система с Clean Architecture**
+**Enterprise-level medical system with Clean Architecture**
 
 - ⚡ **FastAPI** + **SQLAlchemy** + **PostgreSQL**
-- 🏗️ **Clean Architecture** с полным разделением слоев
-- 🔐 **JWT авторизация** с ролевой моделью
-- 🐳 **Docker** контейнеризация
-- ✅ **65 тестов** с полным покрытием
-- 📊 **SOLID принципы** и паттерны проектирования
+- 🏗️ **Clean Architecture** with complete layer separation
+- 🔐 **JWT authentication** with role-based access control
+- 🐳 **Docker** containerization
+- ✅ **65 tests** with comprehensive coverage
+- 📊 **SOLID principles** and design patterns
 
 ```python
-# Пример Clean Architecture
+# Clean Architecture Example
 class CreateAppointmentUseCase:
     def __init__(self, appointment_repo: AppointmentRepository):
         self.appointment_repo = appointment_repo
     
     async def execute(self, appointment_data: AppointmentCreate) -> Appointment:
-        # Бизнес-логика создания записи
+        # Business logic for appointment creation
 ```
 
 ### 🤖 [Medical Telegram Bot](https://github.com/aleks2008-dev/medical-telegram-bot)
-**Интерактивный бот для записи к врачам**
+**Interactive bot for medical appointments**
 
-- 🎯 **aiogram 3.3** с FSM состояниями
-- 📅 **Интерактивный календарь** для выбора даты
-- 🔄 **API интеграция** с backend системой
-- ⚡ **Async HTTP** клиент
-- 💬 **FAQ система** с быстрыми ответами
+- 🎯 **aiogram 3.3** with FSM states
+- 📅 **Interactive calendar** for date selection
+- 🔄 **API integration** with backend system
+- ⚡ **Async HTTP** client
+- 💬 **FAQ system** with quick replies
 
 ```python
-# Пример FSM состояний
+# FSM States Example
 class AppointmentStates(StatesGroup):
     choosing_doctor = State()
     choosing_date = State()
     choosing_time = State()
 ```
 
-## 📈 GitHub статистика
+## 📈 GitHub Statistics
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aleks2008-dev&show_icons=true&theme=default&hide_border=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aleks2008-dev&layout=compact&theme=default&hide_border=true)
 
-## 🎯 Что умею
+## 🎯 Skills & Expertise
 
-- ✅ Проектирование REST API с FastAPI
-- ✅ Работа с базами данных (PostgreSQL, SQLAlchemy)
-- ✅ Асинхронное программирование
-- ✅ Clean Architecture и SOLID принципы
-- ✅ Контейнеризация с Docker
-- ✅ Написание тестов (pytest)
-- ✅ Разработка Telegram ботов
-- ✅ Git workflow и CI/CD
+- ✅ REST API design with FastAPI
+- ✅ Database work (PostgreSQL, SQLAlchemy)
+- ✅ Asynchronous programming
+- ✅ Clean Architecture & SOLID principles
+- ✅ Docker containerization
+- ✅ Testing with pytest
+- ✅ Telegram bot development
+- ✅ Git workflow & CI/CD
 
-## 🔍 Ищу возможности
+## 🔍 Looking for Opportunities
 
-Открыт для позиций **Junior Python Developer** в компаниях, которые ценят:
-- Качественный код и архитектуру
-- Современные технологии
-- Профессиональный рост
+Open to **Junior Python Developer** positions at companies that value:
+- Quality code and architecture
+- Modern technologies
+- Professional growth
 
-## 📫 Связаться со мной
+## 📫 Contact Me
 
 - 📧 Email: [sansanhc2008@gmail.com](mailto:sansanhc2008@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
@@ -98,4 +98,4 @@ class AppointmentStates(StatesGroup):
 
 ---
 
-⭐ **Интересные проекты? Ставьте звездочки!** ⭐
+⭐ **Interesting projects? Give them a star!** ⭐
