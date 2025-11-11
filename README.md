@@ -92,7 +92,7 @@ class AppointmentStates(StatesGroup):
 
 ## 📫 Связаться со мной
 
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
+- 📧 Email: [sansanhc2008@gmail.com](mailto:sansanhc2008@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 - 🐱 GitHub: [@aleks2008-dev](https://github.com/aleks2008-dev)
 
