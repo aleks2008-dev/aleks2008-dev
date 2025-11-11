@@ -93,7 +93,7 @@ Open to **Junior Python Developer** positions at companies that value:
 ## 📫 Contact Me
 
 - 📧 Email: [sansanhc2008@gmail.com](mailto:sansanhc2008@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- 💼 LinkedIn: [aleksandr-stepkov](https://www.linkedin.com/in/aleksandr-stepkov-38119332b)
 - 🐱 GitHub: [@aleks2008-dev](https://github.com/aleks2008-dev)
 
 ---
